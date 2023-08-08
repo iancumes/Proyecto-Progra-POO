@@ -21,13 +21,13 @@ public class Personaje extends Actor
         Actor estrella;
         estrella= getOneIntersectingObject(Estrella.class);
         if (Greenfoot.isKeyDown("right"))
-        move(1);
+        move(3);
         if (Greenfoot.isKeyDown("left"))
-        move(-1);
+        move(-3);
         if (Greenfoot.isKeyDown("up"))
-        setLocation(getX(),(getY()-1));
+        setLocation(getX(),(getY()-3));
         if (Greenfoot.isKeyDown("down"))
-        setLocation(getX(),(getY()+1));
+        setLocation(getX(),(getY()+3));
         if(isTouching(Muro.class))
         setLocation(x, y);
         else{
@@ -41,7 +41,7 @@ public class Personaje extends Actor
             actualizarEtiqueta();
         }
         if (contador >= 3){
-        ((Mundo)this.getWorld()).cambiarNivel(1);    
+        ((Mundo)this.getWorld()).cambiarNivel(1);
         }
         
     }
