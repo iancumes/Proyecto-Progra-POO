@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Mundo
+comment1.params=
+comment1.target=Mundo()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Mundo.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ niveluno()
+comment3.params=
+comment3.target=int[][]\ LabUno()
+comment4.params=
+comment4.target=void\ generarLab()
+comment5.params=laberinto
+comment5.target=void\ DibujarLaberinto(int[][])
+comment6.params=x
+comment6.target=void\ cambiarNivel(int)
+numComments=7
